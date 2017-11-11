@@ -29,7 +29,7 @@
         /// <returns>A string with the properties from this class.</returns>
         public override string ToString()
         {
-            return $"{Id}|{Name}|{YearInSchool}|{Gpa}";
+            return string.Format("{0}|{1}|{2}|{3}", Id, Name, YearInSchool, Gpa);
         }
     }
 }
